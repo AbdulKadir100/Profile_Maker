@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowProfile">
+    <ImageView
+        android:id="@+id/image_sp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/image_shape"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/name_tv_sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/age_tv_sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/email_tv_sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Website"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/web_tv_sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Bio"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bio"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:id="@+id/bio_tv_sp"
+            />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_edit"
+        android:layout_gravity="end"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/floatingbtn"
+
+        >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</LinearLayout>
